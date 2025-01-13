@@ -1,0 +1,118 @@
+:root{
+
+--fondo: #FFC1CC;
+--prin: #B8E2C8;
+--amarillo: #FFF4B1;
+--romantic: #E6E6FA;  
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Unkempt", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1{
+font-size: 3.8rem;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 1rem;
+}
+
+.miniu-c {
+    background-color: var(--prin);
+}
+
+.cont-miniu {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.cont-miniu a{
+
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.cont-miniu a:hover{
+
+    background-color: var(--amarillo);
+    color: black;
+}
+
+.imagediv {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 37rem;
+    height: 450px;
+    position: relative;
+}
+
+.loc-n {
+    position: absolute; /* Sirve para posicionar un div*/
+    background-color: rgba(0 0 0 / 70%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc-n h1,
+.loc-n p {
+    color: azure;
+}
+
+.contenedorubi{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (max-width:480px) {
+    
+    .cont-miniu {
+        display: flex;
+        justify-content: space-around;  
+        flex-direction: column ;
+        align-items: center;
+        
+    }
+
+    .cont-miniu a:hover{
+
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;  
+        flex-direction: column ;
+        align-items: center;    
+    }
+    
+
+}
+

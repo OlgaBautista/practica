@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
     <script src="https://kit.fontawesome.com/4a8faa5bb3.js" crossorigin="anonymous"></script>
     <title>Pagina</title>
 </head>
@@ -35,57 +36,61 @@
                 </div>
             </div>
         </div>
-        <div class="p-sec">
-            <h1>Mis Servicios</h1>
-                <div class="section">
-                    <h2>Diseño Web</h2>     
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 512 512"><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3L344 320c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ea rerum, laudantium nesciunt ipsum reprehenderit deserunt
+        <main class="contenedor shadow">      
+                <h1>Mis Servicios</h1>
+                <div class="icons">
+                    <div class="section">
+                        <h2>Diseño Web</h2>     
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" viewBox="0 0 512 512"><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3L344 320c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ea rerum, laudantium nesciunt ipsum reprehenderit deserunt
                     molestiae quisquam saepe consequatur dolorum necessitatibus est enim dignissimos ex optio ut. Aliquam, expedita.</p>
-                </div>
-                <div class="section">
-                    <h2>E-commerce</h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="51.25" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16l0 32L48 128l0-32c0-8.8 7.2-16 16-16l448 0zm16 144l0 192c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-192 480 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z"/></svg>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit esse dolorum error corrupti consequuntur similique dicta, 
-                    asperiores provident debitis animi. Cumque vitae expedita odio odit debitis ea sint aspernatur facilis?</p>
-                </div>
-                <div class="section">
-                    <h2>Aplicaciones Web</h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="51.25" viewBox="0 0 576 512"><path d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384H576c-8.2-98.5-64.5-181.8-146.9-226.6"/></svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="47.5" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facilis consequuntur natus, est eligendi pariatur
+                    </div>
+                    <div class="section">
+                        <h2>E-commerce</h2>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="50" width="51.25" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16l0 32L48 128l0-32c0-8.8 7.2-16 16-16l448 0zm16 144l0 192c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-192 480 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z"/></svg></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit esse dolorum error corrupti consequuntur similique dicta, 
+                        asperiores provident debitis animi. Cumque vitae expedita odio odit debitis ea sint aspernatur facilis?</p>
+                    </div>
+                    <div class="section">
+                        <h2>Aplicaciones Web</h2>
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="50" width="51.25" viewBox="0 0 576 512"><path d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384H576c-8.2-98.5-64.5-181.8-146.9-226.6"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50" width="47.5" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facilis consequuntur natus, est eligendi pariatur
                         accusamus nesciunt accusantium id dignissimos, molestiae nemo repellendus, veniam perspiciatis laudantium et! Excepturi, illum.</p>
+                    </div>
+                </div>   
+                <div class="contacto">
+                    <form class="form-box">
+                        <fieldset>
+                            <legend>Contactanos</legend>
+                            <div class="campos">    
+                                <div class="form-camp">
+                                    <label for="">Nombre:</label>
+                                    <input class="inputarea" type="text" placeholder="Escribe tu nombre">
+                                </div>
+                                <div class="form-camp"> 
+                                    <label for="">Telefono:</label>
+                                    <input class="inputarea" type="tel" placeholder="Tu telefono">
+                                </div>
+                                <div class="form-camp">
+                                    <label for="">Correo:</label>
+                                    <input class="inputarea" type="email" placeholder="Escribe correo">
+                                </div>
+                                <div class="form-camp">
+                                    <label for="">Mensaje:</label>
+                                    <textarea class="inputarea" name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+                            </div>
+                            <div class="buttom1 flex">
+                                <button class="contact_b w-100" type="submit" value="Enviar">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
-        </div>
-        <div class="form-sec">
-            <form action="">
-                <fieldset>
-                    <legend>Contactanos</legend>    
-                    <div class="contact">
-                        <label for="">Nombre:</label>
-                        <input type="text" placeholder="Escribe tu nombre">
-                    </div>
-                    <div class="phone"> 
-                        <label for="">Telefono:</label>
-                        <input type="tel" placeholder="Tu telefono">
-                    </div>
-                    <div class="mail">
-                        <label for="">Correo:</label>
-                        <input type="email" placeholder="Escribe correo">
-                    </div>
-                    <div class="message">
-                        <label for="">Mensaje:</label>
-                        <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                    <div class="buttom1">
-                        <button class="subttom1" type="submit" value="Enviar">Enviar</button>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
+        </main>
     </div>
 </body>
-<footer>
+<footer class="footer">
     Todos los derechos reservados 
 </footer>
 </html>

@@ -103,6 +103,7 @@ h1,h2,h3 {
     background-size: 100% 37rem;
     height: 450px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .loc-n {
@@ -180,7 +181,7 @@ h1,h2,h3 {
 
 .form-box {
     background-color: var(--fondo);
-    max-width: 100%; /** Utilizar el valor más pequeño **/
+    max-width: 70%; /** Utilizar el valor más pequeño **/
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem; 
